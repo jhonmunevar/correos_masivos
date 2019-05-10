@@ -52,7 +52,7 @@ Las víctimas acreditadas en el marco de los procedimientos ante la JEP adquiere
 
 3.     Contar con acompañamiento psicosocial y jurídico en los procedimientos.
 
-4.     Ser informadas del avance de la investigación y del proceso, y de cuándo se llevarán a cabo las distintas audiencias del proceso, e intervenir en ellas; y
+4.     Ser informadas del avance de la investigación y del proceso, y de cuándo se llevarán a cabo las distintas audiencias del proceso, e intervenir en ellas.
 
 5.     Solicitar medidas de protección en el caso que sus derechos fundamentales se encontrasen amenazados por su participación en el proceso ante la JEP.
 
@@ -62,11 +62,11 @@ Concretamente, ante la Sala de Reconocimiento de Verdad y Responsabilidad, que e
 
  
 
-1.    Aportar pruebas y, con posterioridad a la recepción de versiones voluntarias, presentar observaciones a estas y solicitar y recibir copia del expediente;
+1.    Aportar pruebas y, con posterioridad a la recepción de versiones voluntarias, presentar observaciones a estas y solicitar y recibir copia del expediente.
 
-2.    Asistir a la audiencia pública de reconocimiento, de haberla, y dentro de los 15 días hábiles posteriores a la audiencia, presentar observaciones finales escritas sobre todos los aspectos concernientes a la Resolución de Conclusiones,
+2.    Asistir a la audiencia pública de reconocimiento, de haberla, y dentro de los 15 días hábiles posteriores a la audiencia, presentar observaciones finales escritas sobre todos los aspectos concernientes a la Resolución de Conclusiones.
 
-3.    Presentar observaciones en relación con los proyectos restaurativos propuestos por la persona compareciente, y
+3.    Presentar observaciones en relación con los proyectos restaurativos propuestos por la persona compareciente.
 
 4.    Las víctimas de violencia basada en género, incluyendo aquellas de violencia sexual, tienen derecho a no ser confrontadas con su agresor.
 
