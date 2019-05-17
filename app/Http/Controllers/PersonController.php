@@ -40,7 +40,7 @@ public function uploadPeople($sourcename){
             //$timeDelay=Carbon::now()->addSeconds(5);
 
            // Mail::to($person->email)->later($timeDelay,(new Invitacion($person))->onQueue('invitaciones'));
-            Mail::to($person->email)->queue((new Invitacion($person))->onQueue('invitaciones'));						         
+            Mail::to($person->email)->queue((new Invitacion($person))->onQueue('correosmasivos'));						         
         }
         fclose ( $handle );
      }
