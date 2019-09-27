@@ -18,8 +18,8 @@ class SolicitudController extends Controller
 
 	public function __construct(){
 	        $this->sources_path=storage_path()."/app/sources/"; 
-	        $this->send_to='info@jep.gov.co';
-	       // $this->send_to='humberto.zuluaga@jep.gov.co';
+	        $this->send_to=config('mail.email_destinatario');
+	      
 	      
 	      
 	}
