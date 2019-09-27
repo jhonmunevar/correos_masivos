@@ -1,4 +1,5 @@
-no_identificacion;codigo_registro
-885351;JEP885351-20190805
-1513357;JEP1513357-20190805
-2354518;JEP2354518-20190723
+nombre_victima_solicitante;nombre2_victima_solicitante;apellido1_victima_solicitante;apellido2_victima_solicitante;no_identificacion;correo;codigo_registro;created_at
+Fransiney;;Chaux;Grisales;17652038;fchauxgrizales@gmail.com;JEP17652038-20190730;30/07/2019 16:36
+MARIO;;DIAZ;RESTREPO;80090313;mdroas_098@hotmail.com;JEP80090313-20190730;30/07/2019 16:38
+oscar;alonso;hernandez;moscoso;17354176;hernandezalonso66@hotmail.com;JEP17354176-20190730;30/07/2019 17:56
+JAIME;EUGENIO;BERMEO;LEYTON;18123333;hemevet2010@gmail.com;JEP18123333-20190730;30/07/2019 22:43
