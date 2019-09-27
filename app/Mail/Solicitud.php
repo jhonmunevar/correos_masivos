@@ -32,11 +32,11 @@ class Solicitud extends Mailable
     public function build()
     {
         $message= $this->markdown('emails.solicitud_acreditacion_victimas')
-                //->from('victimas.caso001@jep.gov.co')
-                //->replyTo('victimas.caso001@jep.gov.co')
+                ->from('victimas.caso001@jep.gov.co')
+                ->replyTo('victimas.caso001@jep.gov.co')
                 ->subject('Solicitud de acreditación como víctima del Caso 01 ante la JEP -'.$this->datos['codigo'])
                 ->with([
-                    'codigo' => $this->datos['codigo'],
+                    'datos' => $this->datos,
 
                 ]);
 

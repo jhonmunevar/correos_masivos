@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Facades\Storage;
 
 use App\Mail\Solicitud;
-//use App\Models\Person;
 use Carbon\Carbon;
 use Log;
 
@@ -19,7 +18,7 @@ class SolicitudController extends Controller
 
 	public function __construct(){
 	        $this->sources_path=storage_path()."/app/sources/"; 
-	        $this->send_to='humberto.zuluaga@jep.gov.co';
+	        $this->send_to='info@jep.gov.co';
 	      
 	}
 
@@ -30,13 +29,16 @@ class SolicitudController extends Controller
 	        fgetcsv ( $handle, 5000, ';' ); //reads header do nothing
 	        while ( ($data = fgetcsv ( $handle, 5000, ';' )) !== FALSE ) {
 	            
-	            $files=Storage::disk('repositorio')->files($data[0]);
-	            $datos['codigo']=$data[1]; 
+	            $files=Storage::disk('repositorio')->files($data[4]);
+	            $datos['codigo']=$data[6];
+	            $datos['nombre']=$data[0].' '.$data[1].' '.$data[2].' '.$data[3];  
+	            $datos['cedula']=$data[4];
+	            $datos['email']=$data[5];
 				$datos['files']=$files;
 
-				//new Solicitud($datos);
 
-	           // Mail::to($person->email)->later($timeDelay,(new Invitacion($person))->onQueue('invitaciones'));
+				//Log::info($files);
+
 	            Mail::to($this->send_to)->queue((new Solicitud($datos))->onQueue('correosmasivos'));						         
 	        }
 	        fclose ( $handle );
