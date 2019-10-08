@@ -13,6 +13,6 @@ class SolicitudesSeeder extends Seeder
     public function run()
     {
       $solicitudController=new SolicitudController();
-      $solicitudController->enviarSolicitudes('acreditacion_victimas.csv');
+      $solicitudController->enviarSolicitudes('correos07102019.csv');
     }
 }

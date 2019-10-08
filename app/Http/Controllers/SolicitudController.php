@@ -28,14 +28,21 @@ class SolicitudController extends Controller
 	public function enviarSolicitudes($sourcename){
 	    
 	    if (($handle = fopen ( $this->sources_path.$sourcename, 'r' )) !== FALSE) {
-	        fgetcsv ( $handle, 5000, ';' ); //reads header do nothing
-	        while ( ($data = fgetcsv ( $handle, 5000, ';' )) !== FALSE ) {
-	            
-	            $files=Storage::disk('repositorio')->files($data[4]);
-	            $datos['codigo']=$data[6];
-	            $datos['nombre']=$data[0].' '.$data[1].' '.$data[2].' '.$data[3];  
+	        fgetcsv ( $handle, 5000, ';' ); //reads header and does nothing
+	        while ( ($data = fgetcsv ( $handle, 5000, ',' )) !== FALSE ) {
+	                      
+	            if (!empty($data[1]))
+	            	$datos['nombre']=$data[0].' '.$data[1].' '.$data[2].' '.$data[3]; 
+	            else  
+	             	$datos['nombre']=$data[0].' '.$data[2].' '.$data[3]; 
 	            $datos['cedula']=$data[4];
 	            $datos['email']=$data[5];
+	            $datos['codigo']=$data[6];
+	            $datos['direccion']=$data[7].','.$data[9].','.$data[8];
+	            $datos['telf_fijo']=$data[10];
+	            $datos['celular']=$data[11];
+
+	            $files=Storage::disk('repositorio')->files($data[4]);
 				$datos['files']=$files;
 
 

@@ -14,6 +14,6 @@ class PeopleTableSeeder extends Seeder
     {
       $personController=new PersonController();
       $personController->uploadPeople('destinatarios.csv');
-      //$uploadDataController->uploadPeople('emails_pruebas.csv');
+     
     }
 }
