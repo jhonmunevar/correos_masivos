@@ -34,19 +34,21 @@ class Invitacion extends Mailable implements ShouldQueue
      */
     public function build()
     {
-        return $this->markdown('emails.invitacion_acreditacion_victimas')
-                ->from('victimas.caso001@jep.gov.co')
-                ->replyTo('info@jep.gov.co')
-                ->replyTo('victimas.caso001@jep.gov.co')
-                ->subject('Invitación para ser reconocido/a como víctima ante la JEP en el Caso No. 001 denominado “Retención ilegal de personas por parte de las FARC-EP"')
-                ->with([
-                    'name' => $this->person->nombre1.' '.$this->person->apellido1 ,
-                    'gender' => $this->person->sexo
+        return $this->markdown('emails.poder_representacion_judicial')
+              //  ->from('victimas.caso001@jep.gov.co')
+                ->replyTo('claudia.erazo@jep.gov.co')
+                ->subject('Poder para representación judicial por el “Sistema Autónomo de Asesoría y Defensa – Representación a víctimas”')
+                // ->with([
+                //     'name' => $this->person->nombre1.' '.$this->person->apellido1 ,
+                //     'gender' => $this->person->sexo
 
-                ])
-                ->attach(storage_path('app/sources/FORMATO_ACREDITACION_VICTIMAS.pdf'), 
-                    ['as'=>'solicitud_de_acreditacion_como_victima_jep_caso001.pdf',
-                    'mime' => 'application/pdf',
+                // ])
+                ->attach(storage_path('app/sources/Poder_para_representación_judicial.docx'), 
+                    ['as'=>'Poder_para_representación_judicial.docx',
+                    //'mime' => 'application/pdf',
+                    'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+
+                    
                 ]);;
     }
 }

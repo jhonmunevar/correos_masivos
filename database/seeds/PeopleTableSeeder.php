@@ -13,7 +13,7 @@ class PeopleTableSeeder extends Seeder
     public function run()
     {
       $personController=new PersonController();
-      $personController->uploadPeople('destinatarios.csv');
+      $personController->uploadPeople('correos_destinatarios.csv');
      
     }
 }
