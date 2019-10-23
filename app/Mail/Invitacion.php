@@ -15,7 +15,7 @@ class Invitacion extends Mailable implements ShouldQueue
 
 
      protected $person;
-     public $tries = 5;
+     public $tries = 3;
 
     /**
      * Create a new message instance.
@@ -43,8 +43,8 @@ class Invitacion extends Mailable implements ShouldQueue
                 //     'gender' => $this->person->sexo
 
                 // ])
-                ->attach(storage_path('app/sources/Poder_para_representación_judicial.docx'), 
-                    ['as'=>'Poder_para_representación_judicial.docx',
+                ->attach(storage_path('app/sources/Poder_para_representacion_judicial.docx'), 
+                    ['as'=>'Poder_para_representacion_judicial.docx',
                     //'mime' => 'application/pdf',
                     'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
 

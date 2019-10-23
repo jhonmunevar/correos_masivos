@@ -12,7 +12,7 @@ class Solicitud extends Mailable
     use Queueable, SerializesModels;
 
      protected $datos;
-     public $tries = 5;
+     public $tries = 3;
 
     /**
      * Create a new message instance.
