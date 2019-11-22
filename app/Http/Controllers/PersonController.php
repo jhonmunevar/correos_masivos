@@ -26,7 +26,7 @@ public function uploadPeople($sourcename){
     if (($handle = fopen ( $this->sources_path. $sourcename, 'r' )) !== FALSE) {
        //reads header & does nothing  with first line
        // fgetcsv ( $handle, 5000, ',' ); 
-        while ( ($data = fgetcsv ( $handle, 5000, ',' )) !== FALSE ) {
+        while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) {
             
             $person = new Person();
             
