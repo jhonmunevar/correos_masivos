@@ -34,21 +34,31 @@ class Invitacion extends Mailable implements ShouldQueue
      */
     public function build()
     {
-        return $this->markdown('emails.poder_representacion_judicial')
+        return $this->markdown('emails.plantilla_general_correo')
               //  ->from('victimas.caso001@jep.gov.co')
-                ->replyTo('claudia.erazo@jep.gov.co')
-                ->subject('Poder para representación judicial por el “Sistema Autónomo de Asesoría y Defensa – Representación a víctimas”')
+               // ->replyTo('claudia.erazo@jep.gov.co')
+                ->subject('Caso No. 01 – Auto de apertura de trámite de traslado para la presentación de observaciones a Versiones Voluntarias')
                 // ->with([
                 //     'name' => $this->person->nombre1.' '.$this->person->apellido1 ,
                 //     'gender' => $this->person->sexo
 
                 // ])
-                ->attach(storage_path('app/sources/Poder_para_representacion_judicial.docx'), 
-                    ['as'=>'Poder_para_representacion_judicial.docx',
-                    //'mime' => 'application/pdf',
-                    'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                ->attach(storage_path('app/sources/'), 
+                    ['as'=>'Oficio No. 9227 - Caso No. 01.pdf',
+                    'mime' => 'application/pdf',
+                    // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                    
+                ])
+
+                ->attach(storage_path('app/sources/'), 
+                    ['as'=>'Auto 22 de noviembre.pdf',
+                    'mime' => 'application/pdf',
+                    // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
 
                     
-                ]);;
+                ])
+
+
+                ;
     }
 }

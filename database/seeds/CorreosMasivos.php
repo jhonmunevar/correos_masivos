@@ -3,7 +3,7 @@
 use Illuminate\Database\Seeder;
 use App\Http\Controllers\PersonController;
 
-class PeopleTableSeeder extends Seeder
+class CorreosMasivos extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,7 +13,7 @@ class PeopleTableSeeder extends Seeder
     public function run()
     {
       
-       $filename = $this->command->ask('Nombre del archivo csv con los destinatarios');
+      $filename = $this->command->ask('Nombre del archivo csv con los destinatarios');
 
       $personController=new PersonController();
       $personController->uploadPeople($filename);
