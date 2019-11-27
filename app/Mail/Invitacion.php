@@ -43,7 +43,7 @@ class Invitacion extends Mailable implements ShouldQueue
                 //     'gender' => $this->person->sexo
 
                 // ])
-                ->attach(storage_path('app/sources/Poder_para_representación_judicial_v1.docx'), 
+                ->attach(storage_path('app/sources/Poder_para_representacion_judicial_v1.docx'), 
                     ['as'=>'Poder para representación judicial.docx',
                    // 'mime' => 'application/pdf'
                      'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
