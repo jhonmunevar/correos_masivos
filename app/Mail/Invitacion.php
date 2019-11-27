@@ -37,25 +37,25 @@ class Invitacion extends Mailable implements ShouldQueue
         return $this->markdown('emails.plantilla_general_correo')
               //  ->from('victimas.caso001@jep.gov.co')
                // ->replyTo('claudia.erazo@jep.gov.co')
-                ->subject('Caso No. 01 – Auto de apertura de trámite de traslado para la presentación de observaciones a Versiones Voluntarias')
+                ->subject('Sistema Autónomo de Asesoría y Defensa – Representación a víctima')
                 // ->with([
                 //     'name' => $this->person->nombre1.' '.$this->person->apellido1 ,
                 //     'gender' => $this->person->sexo
 
                 // ])
-                ->attach(storage_path('app/sources/Oficio_No_9227_Caso_01.pdf'), 
-                    ['as'=>'Oficio No. 9227 - Caso No. 01.pdf',
-                    'mime' => 'application/pdf'
-                    // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                ->attach(storage_path('app/sources/Poder_para_representación_judicial_v1.docx'), 
+                    ['as'=>'Poder para representación judicial.docx',
+                   // 'mime' => 'application/pdf'
+                     'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
                     
                 ])
 
-                ->attach(storage_path('app/sources/Auto_22_de_noviembre.pdf'), 
-                    ['as'=>'Auto 22 de noviembre.pdf',
-                    'mime' => 'application/pdf'
-                    // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                // ->attach(storage_path('app/sources/Auto_22_de_noviembre.pdf'), 
+                //     ['as'=>'Auto 22 de noviembre.pdf',
+                //     'mime' => 'application/pdf'
+                //     // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
       
-                ])
+                // ])
 
 
                 ;
