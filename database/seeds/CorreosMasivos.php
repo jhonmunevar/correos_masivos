@@ -2,6 +2,7 @@
 
 use Illuminate\Database\Seeder;
 use App\Http\Controllers\PersonController;
+use App\Models\Person;
 
 class CorreosMasivos extends Seeder
 {
@@ -14,7 +15,7 @@ class CorreosMasivos extends Seeder
     {
       
       $filename = $this->command->ask('Nombre del archivo csv con los destinatarios');
-
+      Person::truncate();
       $personController=new PersonController();
       $personController->uploadPeople($filename);
      
