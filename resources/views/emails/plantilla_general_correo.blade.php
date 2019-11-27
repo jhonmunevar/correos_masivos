@@ -19,13 +19,11 @@ De tal forma que, si usted se encuentra de acuerdo con dicha representación, le
 </BLOCKQUOTE>
 <BLOCKQUOTE> 
 Una vez le sea asignado un abogado, éste se comunicará con usted.
-
-#Si usted ya envió el poder respectivo, le rogamos hacer caso omiso a este mensaje.
  
 </BLOCKQUOTE>
 
 
-
+#Si usted ya envió el poder respectivo, le rogamos hacer caso omiso a este mensaje.
 
  
 #Sistema Autónomo de Asesoría y Defensa – Representación a víctimas
