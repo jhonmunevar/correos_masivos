@@ -12,10 +12,13 @@ Como le fue comunicado mediante Auto de 22 de noviembre de 2019 enviado por este
 <BLOCKQUOTE>
 De conformidad con nuestro registro, la víctima que usted representa ha manifestado interés en acceder a dicha información mediante el traslado de las versiones voluntarias. Para que usted pueda hacerlo, deberá:
 
-1. Acceder al siguiente enlace: <a href = "http://abogados.jep.gov.co/traslado">abogados.jep.gov.co/traslado</a>.
-2. Ingresar su número de documento de identidad.
-3. Ingresar su correo electrónico como representante judicial indicado al momento de la solicitud de acreditación por parte de la vícitma. 
-4. En la plataforma podrá filtrar por el número de identificación de la víctima que representa por la que va a presentar observaciones.
+<ol>
+	<li>Acceder al siguiente enlace: <a href = "http://abogados.jep.gov.co/traslado">abogados.jep.gov.co/traslado</a>.</li>
+	<li>Ingresar su número de documento de identidad.</li>
+	<li>Ingresar su correo electrónico como representante judicial indicado al momento de la solicitud de acreditación por parte de la vícitma.</li>
+	<li>En la plataforma podrá filtrar por el número de identificación de la víctima que representa por la que va a presentar observaciones.</li>
+</ol>
+ 
 </BLOCKQUOTE>
 
 <BLOCKQUOTE>
