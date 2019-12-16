@@ -49,12 +49,9 @@ public function uploadPeople($sourcename){
 
               }
 
-
-
             }
-            catch(){
-
-              
+             catch (\Exception $err) {
+                Log::error($err->getMessage());
             }
             
             
