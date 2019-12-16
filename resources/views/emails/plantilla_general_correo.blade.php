@@ -1,25 +1,42 @@
  
 @component('mail::message')
-
  
-Reciba un cordial saludo.
+Estimado señor(a),
+
+Reciba un cordial saludo por parte de la Jurisdicción Especial para la Paz (JEP).
  
-<BLOCKQUOTE>En atención a su condición de víctima acreditada en el Caso No. 01 denominado “Retención ilegal de personas por parte de las FARC-EP”, la Sala de Reconocimiento de Verdad, de Responsabilidad y de Determinación de los Hechos y Conductas de la Jurisdicción Especial para la Paz, le comunica a continuación de la Apertura del Trámite de traslado para la Presentación de Observaciones a las Versiones Voluntarias en el Caso No. 01.</BLOCKQUOTE>
+<BLOCKQUOTE>
+Como le fue comunicado mediante Auto de 22 de noviembre de 2019 enviado por este medio, en su calidad de representante judicial de una de las víctimas acreditadas en el Caso 01 de la Sala de Reconocimiento de Verdad, Responsabilidad y Determinación de los Hechos y Conductas denominado “Retenciones ilegales por parte de las FARC-EP”, usted podrá conocer el contenido de las versiones voluntarias rendidas por los ex combatientes de la antigua guerrilla de las FARC-Ep en el marco del Caso y presentar observaciones a las mismas.
+</BLOCKQUOTE>
 
-<BLOCKQUOTE>El traslado le permitirá conocer el contenido de las Versiones Voluntarias practicadas en el marco del Caso No. 01 a los ex miembros de las extintas FARC-Ep, y posteriormente, contribuir a la verdad integral haciendo observaciones a este contenido.</BLOCKQUOTE>
+<BLOCKQUOTE>
+De conformidad con nuestro registro, la víctima que usted representa ha manifestado interés en acceder a dicha información mediante el traslado de las versiones voluntarias. Para que usted pueda hacerlo, deberá:
 
+1. Acceder al siguiente enlace: <a href = "http://abogados.jep.gov.co/traslado">abogados.jep.gov.co/traslado</a>.
+2. Ingresar su número de documento de identidad.
+3. Ingresar su correo electrónico como representante judicial indicado al momento de la solicitud de acreditación por parte de la vícitma. 
+4. En la plataforma podrá filtrar por el número de identificación de la víctima que representa por la que va a presentar observaciones.
+</BLOCKQUOTE>
 
-<h5> <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=wdIp156Y5US3xRgskUrGB-P057QmPQNGsfjircIG_s9UM0dUNE8yWTJETDVOSlZIN0xaR0RBRkw5NC4u">Para informar a la Sala sobre la modalidad de traslado de su preferencia, por favor ingrese al siguiente link</a></h5>
+<BLOCKQUOTE>
+Una vez ingrese a la plataforma, usted podrá conocer el contenido de las versiones voluntarias de las estructuras de las extintas FARC – Ep de acuerdo al lugar de ocurrencia de los hechos que la víctima que usted representa indicara en la solicitud de acreditación, y podrá diligenciar el Formulario en línea dispuesto para la presentación de observaciones por parte de representantes judiciales. 
+</BLOCKQUOTE>
 
+<BLOCKQUOTE>
+Por favor recuerde que, a partir del momento en que usted accede al enlace, cuenta con 20 días hábiles para presentar sus observaciones.  
+</BLOCKQUOTE>
 
+<BLOCKQUOTE>
+Si tiene alguna duda o consulta, usted puede comunicarse al correo <a href = "mailto:victimas.caso001@jep.gov.co">victimas.caso001@jep.gov.co</a>.  
+</BLOCKQUOTE>
+
+<br> 
+<b>Agradecemos la confianza depositada en la Jurisdicción Especial para la Paz.</b>
  
-Agradecemos su participación en el Caso No. 01 y la confianza depositada en esta Jurisdicción.
- 
-
+<br>
 Cordialmente,
 
 
- 
 
 #Jurisdicción Especial para la Paz
 

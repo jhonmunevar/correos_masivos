@@ -37,25 +37,25 @@ class Invitacion extends Mailable implements ShouldQueue
         return $this->markdown('emails.plantilla_general_correo')
               //  ->from('victimas.caso001@jep.gov.co')
                // ->replyTo('claudia.erazo@jep.gov.co')
-                ->subject('Caso No. 01 – Auto de apertura de trámite de traslado para la presentación de observaciones a Versiones Voluntarias')
+                ->subject('Traslado electrónico observaciones')
                 // ->with([
                 //     'name' => $this->person->nombre1.' '.$this->person->apellido1 ,
                 //     'gender' => $this->person->sexo
 
                 // ])
-                ->attach(storage_path('app/sources/Oficio_No_9227_Caso_01.pdf'), 
-                    ['as'=>'Oficio No 9227 Caso 01.pdf',
+                ->attach(storage_path('app/sources/Volante_Present_Observ_VV_Caso_01.pdf'), 
+                    ['as'=>'Volante_Present_Observ_VV_Caso_01.pdf',
                      'mime' => 'application/pdf'
                      // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
                     
                 ])
 
-                ->attach(storage_path('app/sources/Auto_22_de_noviembre.pdf'), 
-                    ['as'=>'Auto 22 de noviembre.pdf',
-                    'mime' => 'application/pdf'
-                    // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+                // ->attach(storage_path('app/sources/Auto_22_de_noviembre.pdf'), 
+                //     ['as'=>'Auto 22 de noviembre.pdf',
+                //     'mime' => 'application/pdf'
+                //     // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
       
-                ])
+                // ])
 
 
                 ;

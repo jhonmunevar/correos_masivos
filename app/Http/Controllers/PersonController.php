@@ -27,23 +27,38 @@ public function uploadPeople($sourcename){
        //reads header & does nothing  with first line
         fgetcsv ( $handle, 5000, ',' ); 
         while ( ($data = fgetcsv ( $handle, 1000, ',' )) !== FALSE ) {
-            
-            $person = new Person();
+
+            try{
+
+              $person = Person::create(['email' => $data[0] ]);
             
             // $person->nombre1 = strtoupper($data[1]);
             // $person->nombre2 = strtoupper($data[2]);
             // $person->apellido1 = strtoupper($data[3]);
             // $person->apellido2 = strtoupper($data[4]);
             // $person->sexo = $data[0];      
-            $person->email = $data[0];
-            $person->save ();
+            // $person->email = $data[0];
+            // $person->save ();
 
             //$timeDelay=Carbon::now()->addSeconds(5);
 
            // Mail::to($person->email)->later($timeDelay,(new Invitacion($person))->onQueue('invitaciones'));
-            Mail::to($person->email)
-           // ->bcc('hzuluaga@gmail.com')
-            ->queue((new Invitacion($person))->onQueue('correosmasivos'));						         
+            if(!empty($person)){
+                Mail::to($person->email)
+                      ->queue((new Invitacion($person))->onQueue('correosmasivos'));  
+
+              }
+
+
+
+            }
+            catch(){
+
+              
+            }
+            
+            
+            					         
         }
         fclose ( $handle );
      }
