@@ -17,9 +17,9 @@ Mediante el presente correo electrónico, de acuerdo con el Auto del 13 de enero
 Para acceder a la información de las versiones voluntarias y presentar sus observaciones en línea usted podrá:
 
 <ol>
-	<li>1. Acceder al siguiente enlace: <a href = "http://abogados.jep.gov.co/traslado">abogados.jep.gov.co/traslado</a>.</li>
-	<li>2. Ingresar su número de documento de identidad y el correo electrónico indicado al momento de realizar su solicitud de acreditación como víctima en el Caso 01.</li>
-	<li>3. Hacer click en el botón "Recuperar la contraseña" y seguir las instrucciones para generar su propia contraseña.</li>
+	<li>Acceder al siguiente enlace: <a href = "http://abogados.jep.gov.co/traslado">abogados.jep.gov.co/traslado</a>.</li>
+	<li>Ingresar su número de documento de identidad y el correo electrónico indicado al momento de realizar su solicitud de acreditación como víctima en el Caso 01.</li>
+	<li>Hacer click en el botón "Recuperar la contraseña" y seguir las instrucciones para generar su propia contraseña.</li>
 	
 </ol>
  
