@@ -18,8 +18,9 @@ Para acceder a la información de las versiones voluntarias y presentar sus obse
 
 <ol>
 	<li>Acceder al siguiente enlace: <a href = "http://abogados.jep.gov.co/traslado">abogados.jep.gov.co/traslado</a>.</li>
-	<li>Ingresar su número de documento de identidad y el correo electrónico indicado al momento de realizar su solicitud de acreditación como víctima en el Caso 01.</li>
-	<li>Hacer click en el botón "Recuperar la contraseña" y seguir las instrucciones para generar su propia contraseña.</li>
+	<li>Ingresar su número de documento de identidad.</li>
+	<li>Ingresar su correo electrónico como representante judicial indicado al momento de la solicitud de acreditación por parte de la víctima.</li>
+	<li>En la plataforma podrá filtrar por el número de identificación de la víctima que representa por la que va a presentar observaciones.</li>
 	
 </ol>
  
