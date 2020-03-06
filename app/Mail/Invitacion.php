@@ -37,7 +37,7 @@ class Invitacion extends Mailable implements ShouldQueue
         return $this->markdown('emails.plantilla_general_correo')
               //  ->from('victimas.caso001@jep.gov.co')
                // ->replyTo('claudia.erazo@jep.gov.co')
-                ->subject('Ampliación plazo - Presentación de observaciones a las versiones voluntarias Caso 01 (JEP)')
+                ->subject('Convocatoria a Audiencias Públicas Territoriales de Presentación de Observaciones de las víctima acreditadas en el marco del Caso No. 01')
                 // ->with([
                 //     'name' => $this->person->nombre1.' '.$this->person->apellido1 ,
                 //     'gender' => $this->person->sexo
