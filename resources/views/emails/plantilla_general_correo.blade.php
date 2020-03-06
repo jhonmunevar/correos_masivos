@@ -1,45 +1,25 @@
  
 @component('mail::message')
  
-Estimado señor(a),
+Reciba un cordial saludo.
 
-Reciba un cordial saludo por parte de la Jurisdicción Especial para la Paz (JEP).
- 
+
 <BLOCKQUOTE>
-Como le fue comunicado mediante Auto del 22 de noviembre de 2019, como víctima acreditada en el Caso 01 de la Sala de Reconocimiento de Verdad, Responsabilidad y Determinación de los Hechos y Conductas denominado “Retenciones ilegales por parte de las FARC-EP”, <b>usted tiene derecho a conocer el contenido de las versiones voluntarias rendidas por los ex combatientes de la antigua guerrilla de las FARC-Ep en el marco del Caso 01 y presentar sus observaciones a las mismas.</b> 
+En atención a su condición de víctima acreditada que presentó observaciones a las Versiones Voluntarias rendidas por los ex integrantes de las antiguas FARC – Ep en el Caso No. 01 la Sala de Reconocimiento de Verdad, de Responsabilidad y de Determinación de los Hechos y Conductas de la Jurisdicción Especial para la Paz, le comunica a continuación de la <b> Convocatoria a Audiencias Públicas Territoriales de Presentación de Observaciones de las víctima acreditadas en el marco del Caso No. 01.</b> 
 </BLOCKQUOTE>
 
 <BLOCKQUOTE>
-Mediante el presente correo electrónico, de acuerdo con el Auto del 13 de enero de 2020 adjunto, <b>le comunicamos que el plazo para acceder al traslado de las versiones voluntarias y presentar sus observaciones ha sido ampliado hasta el 28 de febrero de 2020. </b> 
+Las Audiencias Públicas Territoriales son un espacio procesal para dar la oportunidad <b> a las víctimas acreditadas </b> que han presentado observaciones escritas frente a las versiones voluntarias rendidas por los excombatientes de los antiguos Bloques de las FARC-Ep en el término establecido, de exponerlas y complementarlas de manera oral. Estas Audiencias, en todos los casos, contarán con un <b> taller preparatorio </b> que se celebrará un día antes de la diligencia judicial.
 </BLOCKQUOTE>
 
 <BLOCKQUOTE>
-Para acceder a la información de las versiones voluntarias y presentar sus observaciones en línea usted podrá:
-
-<ol>
-	<li>Acceder al siguiente enlace: <a href = "http://abogados.jep.gov.co/traslado">abogados.jep.gov.co/traslado</a>.</li>
-	<li>Ingresar su número de documento de identidad.</li>
-	<li>Ingresar su correo electrónico como representante judicial indicado al momento de la solicitud de acreditación por parte de la víctima.</li>
-	<li>En la plataforma podrá filtrar por el número de identificación de la víctima que representa por la que va a presentar observaciones.</li>
-	
-</ol>
- 
+Por favor, tenga en cuenta que deberá disponer de dos días de acuerdo con el cronograma dispuesto en el Auto de 05 de marzo adjunto a este correo. <b>Para informar a la Sala sobre la Audiencia Territorial de Presentación de Observaciones a la que asistirá</b>, remita un correo electrónico con sus datos, ciudad y fecha de la Audiencia a la dirección: <a href = "mailto:victimas.caso001@jep.gov.co">victimas.caso001@jep.gov.co</a>.   
 </BLOCKQUOTE>
 
 <BLOCKQUOTE>
-Una vez ingrese a la plataforma, usted podrá conocer el contenido de las versiones voluntarias de los ex combatientes de las extintas FARC – Ep que operaron en la zona de ocurrencia de los hechos victimizantes que usted reportó ante la JEP y la versión colectiva escrita de las FARC-Ep.
+Agradecemos su participación en el Caso No. 01 y la confianza depositada en esta Jurisdicción.
 </BLOCKQUOTE>
 
-<BLOCKQUOTE>
-<b> Por favor lea cuidadosamente la información trasladada y diligencie las preguntas del Formulario en línea dispuesto para la presentación de sus observaciones hasta el 28 de febrero de 2020.</b> 
-</BLOCKQUOTE>
-
-<BLOCKQUOTE>
-Si tiene alguna duda o consulta, usted puede comunicarse al correo <a href = "mailto:victimas.caso001@jep.gov.co">victimas.caso001@jep.gov.co</a>.  
-</BLOCKQUOTE>
-
-<br> 
-<b>Agradecemos la confianza depositada en la Jurisdicción Especial para la Paz.</b>
  
 <br>
 Cordialmente,
