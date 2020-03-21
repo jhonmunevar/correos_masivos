@@ -16,7 +16,7 @@ A través del Auto del 22 de noviembre de 2019, se decretó el inicio de la etap
 <BLOCKQUOTE>
 Para acceder a esta información de las versiones voluntarias y presentar sus observaciones en línea usted podrá:
 <ol>
-<li>Acceder al siguiente enlace: <a href="http://abogados.jep.gov.co/traslado/representantes">http://abogados.jep.gov.co/traslado/representantes</a></li>
+<li>Acceder al siguiente enlace: <a href="http://abogados.jep.gov.co/traslado/personas">http://abogados.jep.gov.co/traslado/personas</a></li>
 <li>Hacer clic en el botón "Recuperar la contraseña".</li>
 <li>Ingresar el correo electrónico y documento de identidad que Usted le entregó a la JEP al momento de realizar su solicitud de acreditación como víctima en el Caso 01.</li>
 <li>A su correo llegará una solicitud de recuperación de contraseña. Deberá asignar una nueva contraseña que cumpla las siguientes características: deberá tener mínimo 8 caracteres y estos deben tener como mínimo: una letra en mayúscula, un número y un carácter especial (ejemplo: @#$%^&*).</li>
