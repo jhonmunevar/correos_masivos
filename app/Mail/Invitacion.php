@@ -43,24 +43,30 @@ class Invitacion extends Mailable implements ShouldQueue
                 //     'gender' => $this->person->sexo
 
                 // ])
-                ->attach(storage_path('app/sources/auto_19_marzo.pdf'), 
+                ->attach(storage_path('app/sources/auto_14_abril.pdf'),
                     ['as'=>'auto_19_marzo.pdf',
                      'mime' => 'application/pdf'
                      // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                    
+
                 ])
-                ->attach(storage_path('app/sources/auto_17_marzo_suspende.pdf'), 
+                ->attach(storage_path('app/sources/auto_17_marzo_suspende.pdf'),
                     ['as'=>'auto_17_marzo_suspende.pdf',
                      'mime' => 'application/pdf'
                      // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-                    
-                ])
 
-                // ->attach(storage_path('app/sources/Auto_22_de_noviembre.pdf'), 
+                ])
+              ->attach(storage_path('app/sources/auto_19_marzo.pdf'),
+                  ['as'=>'auto_17_marzo_suspende.pdf',
+                   'mime' => 'application/pdf'
+                   // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+
+              ])
+
+                // ->attach(storage_path('app/sources/Auto_22_de_noviembre.pdf'),
                 //     ['as'=>'Auto 22 de noviembre.pdf',
                 //     'mime' => 'application/pdf'
                 //     // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
-      
+
                 // ])
 
 

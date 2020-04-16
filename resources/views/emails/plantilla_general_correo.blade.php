@@ -1,6 +1,6 @@
- 
+
 @component('mail::message')
- 
+
 Estimado señor(a),
 
 
@@ -11,7 +11,7 @@ Reciba un cordial saludo por parte de la Jurisdicción Especial para la Paz (JEP
 En tanto víctima acreditada en el Caso 01 denominado “Retenciones ilegales por parte de las FARC-EP”, de la Sala de Reconocimiento de Verdad, Responsabilidad y Determinación de los Hechos y Conductas, y en ejercicio de los derechos que tiene como interviniente especial, <b>usted podrá conocer el contenido de las versiones voluntarias rendidas por los excombatientes de la antigua guerrilla de las FARC-EP en el marco del Caso y presentar sus observaciones a las mismas.</b>
 </BLOCKQUOTE>
 <BLOCKQUOTE>
-A través del Auto del 22 de noviembre de 2019, se decretó el inicio de la etapa de traslado de las versiones voluntarias a las víctimas acreditadas para la presentación de estas observaciones y opiniones. Posteriormente, y para garantizar la participación efectiva del conjunto de víctimas acreditadas hasta la fecha, los Magistrados relatores decidieron ampliar el plazo para la presentación de las observaciones hasta el próximo <b>10 de abril del 2020</b>, por medio del Auto del 17 de marzo de 2020. 
+A través del Auto del 22 de noviembre de 2019, se decretó el inicio de la etapa de traslado de las versiones voluntarias a las víctimas acreditadas para la presentación de estas observaciones y opiniones. Posteriormente, y para garantizar la participación efectiva del conjunto de víctimas acreditadas hasta la fecha, los Magistrados relatores decidieron ampliar el plazo para la presentación de las observaciones hasta el próximo 10 de abril del 2020, por medio del Auto del 17 de marzo de 2020. 
 </BLOCKQUOTE>
 <BLOCKQUOTE>
 Para acceder a esta información de las versiones voluntarias y presentar sus observaciones en línea usted podrá:
@@ -33,9 +33,9 @@ Se adjuntan a esta comunicación el Auto de acreditación del 19 de marzo de 202
 </BLOCKQUOTE>
 <BLOCKQUOTE>
 Para su conocimiento y fines pertinentes.
-</BLOCKQUOTE> 
+</BLOCKQUOTE>
 <BLOCKQUOTE>
-Si tiene alguna duda o consulta, o si quiere reportar alguna falla en el sistema de acceso a los traslados, puede comunicarse al correo <a href="mail:victimas.caso001@jep.gov.co">victimas.caso001@jep.gov.co</a>. Su inquietud será atendida en el menor tiempo posible.  
+Si tiene alguna duda o consulta, o si quiere reportar alguna falla en el sistema de acceso a los traslados, puede comunicarse al correo <a href="mail:victimas.caso001@jep.gov.co">victimas.caso001@jep.gov.co</a>. Su inquietud será atendida en el menor tiempo posible.
 </BLOCKQUOTE>
 <BLOCKQUOTE>
 <b>Agradecemos la confianza depositada en la Jurisdicción Especial para la Paz.</b>
