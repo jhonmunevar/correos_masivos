@@ -44,7 +44,7 @@ class Invitacion extends Mailable implements ShouldQueue
 
                 // ])
                 ->attach(storage_path('app/sources/auto_14_abril.pdf'),
-                    ['as'=>'auto_19_marzo.pdf',
+                    ['as'=>'auto_14_abril.pdf',
                      'mime' => 'application/pdf'
                      // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
 
@@ -56,7 +56,7 @@ class Invitacion extends Mailable implements ShouldQueue
 
                 ])
               ->attach(storage_path('app/sources/auto_19_marzo.pdf'),
-                  ['as'=>'auto_17_marzo_suspende.pdf',
+                  ['as'=>'auto_19_marzo.pdf',
                    'mime' => 'application/pdf'
                    // 'mime' => 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
 
